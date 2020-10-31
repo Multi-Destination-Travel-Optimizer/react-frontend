@@ -1,13 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import NavBar from "./NavBar"
-import Input from "./Landing/Input"
+import LandingForm from "./Landing/LandingForm"
+import { Container } from 'react-bootstrap';
+import Description from './Landing/Description'
 
 function App() {
     return (
       <div>
         <NavBar/>
-        <Input/>
+        <LandingForm/>
+        <Container>
+          <Description/>
+        </Container>
       </div>
     );
 }

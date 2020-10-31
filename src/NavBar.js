@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 const NavBar = () => {
     return (
         <div className="NavBar">
-            <Navbar expand="lg" variant="light" bg="dark">
+            <Navbar className="NavBar-BG"expand="lg" variant="light">
                 <Container>
                     <h4>Multi-Destination Travel Optimizer</h4>
                 </Container>

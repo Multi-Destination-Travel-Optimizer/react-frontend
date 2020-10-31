@@ -6,8 +6,27 @@ body {
   font-family: 'Lato';
 }
 
-.Input h1{
-  color: black;
+.NavBar-BG {
+  background-color: #0f073c;
+}
+
+.LandingForm h1{
+  font-size: 4rem;
+  color: white;
   font-family: 'Lato';
   font-weight: bold;
+}
+
+.LandingForm {
+  background-color: #0f073c;
+}
+
+.Description{
+  font-family: 'Lato';
+  font-weight: bold;
+}
+
+.Description .Col1{
+  background-color: lightblue;
+  margin: 1%;
 }
