@@ -24,9 +24,16 @@ body {
 .Description{
   font-family: 'Lato';
   font-weight: bold;
+  font-size: 4rem;
+}
+
+.Description .Title {
+  text-align: center;
+  font-size: 4rem;
 }
 
 .Description .Col1{
   background-color: lightblue;
-  margin: 1%;
+  margin: 5%;
+  font-size: 3rem;
 }
